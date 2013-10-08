@@ -2,7 +2,7 @@ Veewee::Session.declare({
   :os_type_id  => 'OpenSUSE_64',
   :cpu_count   => '1',
   :memory_size => '1024',
-  :disk_size   => '20480',
+  :disk_size   => '81920',
   :disk_format => 'VDI',
   :hostiocache => 'off',
   :iso_file => "SLES-11-SP1-DVD-x86_64-GM-DVD1.iso",

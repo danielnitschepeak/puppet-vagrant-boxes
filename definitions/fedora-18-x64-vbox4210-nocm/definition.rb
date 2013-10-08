@@ -1,7 +1,7 @@
 Veewee::Session.declare({
   # Minimum RAM requirement for installation is 512MB.
   :cpu_count => '1', :memory_size=> '512',
-  :disk_size => '10140', :disk_format => 'VDI', :hostiocache => 'off', :hwvirtext => 'on',
+  :disk_size => '81920', :disk_format => 'VDI', :hostiocache => 'off', :hwvirtext => 'on',
   :os_type_id => 'Fedora_64',
   :iso_file => "Fedora-18-x86_64-DVD.iso",
   :iso_src => "http://mirrors.kernel.org/fedora/releases/18/Fedora/x86_64/iso/Fedora-18-x86_64-DVD.iso",
